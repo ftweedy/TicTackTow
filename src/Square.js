@@ -3,7 +3,7 @@ import './App.css';
 
 class Square extends Component {
     clickHandler = () => {
-        this.props.al(this.props.unique)
+        this.props.mark(this.props.unique)
     }
 
   render() {
